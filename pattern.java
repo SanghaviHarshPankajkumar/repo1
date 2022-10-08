@@ -11,9 +11,9 @@ public class pattern {
         int n4= sc.nextInt();
         pattern4(n4);
         int size = sc.nextInt();
-        List<Character> l = new ArrayList<>();
+        ArrayList<Character> l = new ArrayList<>();
         for(int i=0;i<size;i++){
-            char temp = sc.next();
+            char temp = sc.next().charAt(0);
             l.add(temp);
         }
         sortChar(l,size);
